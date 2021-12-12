@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.774)),url(Images/main.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    border: 2px soild rgb(0, 0, 0);
+    padding-top: 10px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.active a{
+    background-color: rgb(255, 255, 255);
+    color: black
+}
+.logo img{
+    width: 180px;
+    height: auto;
+    float: left;
+    margin-top: 7px;
+    padding: 0 16px;
+}
+.main ul{
+    float: right;
+    list-style: none;
+    margin-top: 12px;
+}
+ul li{
+    display: inline-block;
+    margin-top: 7px;
+    padding: 0px 12px;
+}
+ul li a{
+text-decoration: none;
+border:transparent;
+padding: 4px 12px;
+color: blanchedalmond;
+font-weight:500;
+font-size: 15px;
+transition: 0.8s;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.title{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  letter-spacing: 7px;
+}
+.title h1{
+    font-size: 65px;
+}
+.button{  
+  font-size: 14px;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 7px 13px;
+    /* margin: 0px; */
+    transition: 0.6s ease;
+
+}
+.button a:hover{
+    color: black;
+    background-color: white;
+    font-weight:500;
+}
+.about-us, .contact-us{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about-us .row p{
+    font-size: 14px;
+}
+.about-us .row h2{
+    text-align: center;
+    margin: 30px 0;
+}
+.contact-us h2{
+margin: 40px 0;
+text-align: center;
+}
+
+.contact-form{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contact-box{
+    flex-basis: 48%;
+    margin: 0 5px;
+
+}
+.fas, .fa{
+    color: #f44336;
+    font-size: 22px;
+}
+.abc h5{
+    font-size: 16px;
+}
+.abc p{
+    font-size: 13px;
+}
+.contact-us .row{
+    display: flex;
+    box-sizing: border-box;
+}
+.contact-form input, textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 12px 0;
+    outline: none;
+    background-color: rgba(218, 211, 211, 0.671);
+    border: none;
+    resize: none;
+}
+.contact-form button{
+padding: 10px 14px;
+margin-top: 10px;
+color:  rgb(255, 30, 0);
+background-color: transparent;
+transition: 0.6s;
+border: 1px solid rgb(255, 30, 0);
+}
+.contact-form button:hover{
+    background-color:rgb(255, 30, 0);
+    color: #fff;
+}
+.contact-us .row h3{
+    margin: 30px 0;
+    text-align: center;
+}
+.abc{
+    margin-bottom: 12px;
+    padding: 5px 0;
+}
